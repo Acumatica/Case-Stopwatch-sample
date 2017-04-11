@@ -17,5 +17,6 @@ Quick Start
 ### Usage
 
 Naviage to Cases (CR.30.60.00) and you will see stopwatch like control as shown below:
+![Screenshot](/_ReadMeImages/Case with stopwatch.png)
 
 

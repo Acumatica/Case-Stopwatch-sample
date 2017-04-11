@@ -1,4 +1,4 @@
-# Case Stopwatch sample
+Uds# Case Stopwatch sample
 Simple customization that puts stopwatch on Case screen. User can start and stop the watch and save.
 
 Quick Start
@@ -16,7 +16,7 @@ Quick Start
 
 ### Usage
 
-Naviage to Cases (CR.30.60.00) and you will see stopwatch like control as shown below:
+Naviage to Cases (CR.30.60.00) and you will see stopwatch like button control as shown below:
 ![Screenshot](/_ReadMeImages/CaseWithStopwatch.png)
 
-
+Button acts as a toggle. User can click on it to start and stop the timer.  Changes to the screen including timer value can be saved using the Save button.

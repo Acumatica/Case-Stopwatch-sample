@@ -1,0 +1,7 @@
+﻿<DAC type="PX.Objects.CR.CRCase">
+    <Field FieldName="UsrClockTick" TypeName="string" MapDbTable="CRCase" TextAttributes="#CDATA" StorageName="AddColumn">
+        <CDATA name="TextAttributes"><![CDATA[[PXDBString(8)]
+[PXDefault("00:00:00")]
+[PXUIField(DisplayName="ClockTick")]]]></CDATA>
+    </Field>
+</DAC>

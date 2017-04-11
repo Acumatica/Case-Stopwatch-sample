@@ -1,0 +1,44 @@
+﻿<Graph ClassName="CRCaseMaint" Source="#CDATA" IsNew="True" FileType="ExistingGraph">
+    <CDATA name="Source"><![CDATA[using System;
+using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.Linq;
+using PX.Common;
+using PX.Data;
+using System.Collections;
+using PX.Data.EP;
+using PX.Objects.AR;
+using PX.Objects.CT;
+using PX.Objects.GL;
+using PX.Objects.EP;
+using PX.Objects.IN;
+using PX.Objects.PM;
+using PX.SM;
+using PX.TM;
+using PX.Objects;
+using PX.Objects.CR;
+
+namespace PX.Objects.CR
+{
+  
+  public class CRCaseMaint_Extension:PXGraphExtension<CRCaseMaint>
+  {
+
+    #region Event Handlers
+
+        public PXAction<PX.Objects.CR.CRCase> Test;
+
+        [PXButton(CommitChanges = true)]
+        [PXUIField(DisplayName = "Test")]
+        protected void test()
+        {
+
+        }
+
+    #endregion
+
+  }
+
+
+}]]></CDATA>
+</Graph>
